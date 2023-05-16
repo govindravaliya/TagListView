@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class CloseButton: UIButton {
+public class CloseButton: UIButton {
 
     var iconSize: CGFloat = 10
     var lineWidth: CGFloat = 1
@@ -16,6 +16,7 @@ internal class CloseButton: UIButton {
 
     weak var tagView: TagView?
 
+    /*
     override func draw(_ rect: CGRect) {
         let path = UIBezierPath()
 
@@ -38,5 +39,6 @@ internal class CloseButton: UIButton {
 
         path.stroke()
     }
+     */
 
 }

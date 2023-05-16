@@ -26,6 +26,7 @@ open class TagView: UIButton {
     @IBInspectable open var borderColor: UIColor? {
         didSet {
             reloadStyles()
+            reloadStyles()
         }
     }
     
@@ -121,7 +122,7 @@ open class TagView: UIButton {
     
     // MARK: remove button
     
-    let removeButton = CloseButton()
+    public let removeButton = CloseButton()
     
     @IBInspectable open var enableRemoveButton: Bool = false {
         didSet {
